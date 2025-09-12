@@ -23,13 +23,13 @@
 22,#0022,Fearow,Normal / Flying,Keen Eye,Sniper,"50% male, 50% female",15cycles,Flying,155.0,1.2,38.0,Medium Fast,Brown,70.0,Beak Pokémon,1
 23,#0023,Ekans,Poison,Intimidate / Shed Skin,Unnerve,"50% male, 50% female",20cycles,Field / Dragon,58.0,2.0,6.9,Medium Fast,Purple,70.0,Snake Pokémon,1
 24,#0024,Arbok,Poison,Intimidate / Shed Skin,Unnerve,"50% male, 50% female",20cycles,Field / Dragon,157.0,3.5,65.0,Medium Fast,Purple,70.0,Cobra Pokémon,1
-25,#0025,Pikachu,Electric,Static,Lightning Rod,"50% male, 50% female",10cycles,Field / Fairy,112,0.4,6.0,Medium Fast,Yellow,70,Mouse Pokémon,1
-26,#0026,Raichu,Electric,Static,Lightning Rod,"50% male, 50% female",10cycles,Field / Fairy,218,0.8,30.0,Medium Fast,Yellow,70,Mouse Pokémon,1
+25,#0025,Pikachu,Electric,Static,Lightning Rod,"50% male, 50% female",10cycles,Field / Fairy,112.0,0.4,6.0,Medium Fast,Yellow,70.0,Mouse Pokémon,1
+26,#0026,Raichu,Electric,Static,Lightning Rod,"50% male, 50% female",10cycles,Field / Fairy,218.0,0.8,30.0,Medium Fast,Yellow,70.0,Mouse Pokémon,1
 27,#0027,Sandshrew,Ground,Sand Veil,Sand Rush,"50% male, 50% female",20cycles,Field,60.0,0.6,12.0,Medium Fast,Yellow,70.0,Mouse Pokémon,1
 28,#0028,Sandslash,Ground,Sand Veil,Sand Rush,"50% male, 50% female",20cycles,Field,158.0,1.0,29.5,Medium Fast,Yellow,70.0,Mouse Pokémon,1
-29,#0029,Nidoran♀,Poison,Poison Point / Rivalry,Hustle,100% female,20cycles,Monster / Field,55.0,0.4,7.0,Medium Slow,Blue,70.0,Poison Pin Pokémon,1
-30,#0030,Nidorina,Poison,Poison Point / Rivalry,Hustle,100% female,20cycles,No Eggs Discovered,128.0,0.8,20.0,Medium Slow,Blue,70.0,Poison Pin Pokémon,1
-31,#0031,Nidoqueen,Poison / Ground,Poison Point / Rivalry,Sheer Force,100% female,20cycles,No Eggs Discovered,227.0,1.3,60.0,Medium Slow,Blue,70.0,Drill Pokémon,1
+29,#0029,Nidoran♀,Poison,Poison Point / Rivalry,Hustle,100% female,20cycles,Monsterand Field,55,0.4,7.0,Medium Slow,Blue,70,Poison Pin Pokémon,0
+30,#0030,Nidorina,Poison,Poison Point / Rivalry,Hustle,100% female,20cycles,No Eggs Discovered,128,0.8,20.0,Medium Slow,Blue,70,Poison Pin Pokémon,0
+31,#0031,Nidoqueen,Poison / Ground,Poison Point / Rivalry,Sheer Force,100% female,20cycles,No Eggs Discovered,227,1.3,60.0,Medium Slow,Blue,70,Drill Pokémon,0
 32,#0032,Nidoran♂,Poison,Poison Point / Rivalry,Hustle,100% male,20cycles,Monster / Field,55.0,0.5,9.0,Medium Slow,Purple,70.0,Poison Pin Pokémon,1
 33,#0033,Nidorino,Poison,Poison Point / Rivalry,Hustle,100% male,20cycles,Monster / Field,128.0,0.9,19.5,Medium Slow,Purple,70.0,Poison Pin Pokémon,1
 34,#0034,Nidoking,Poison / Ground,Poison Point / Rivalry,Sheer Force,100% male,20cycles,Monster / Field,227.0,1.4,62.0,Medium Slow,Purple,70.0,Drill Pokémon,1
@@ -50,8 +50,8 @@
 49,#0049,Venomoth,Bug / Poison,Shield Dust / Tinted Lens,Wonder Skin,"50% male, 50% female",20cycles,Bug,158.0,1.5,12.5,Medium Fast,Purple,70.0,Poison Moth Pokémon,1
 50,#0050,Diglett,Ground,Sand Veil / Arena Trap,Sand Force,"50% male, 50% female",20cycles,Field,53.0,0.2,0.8,Medium Fast,Brown,70.0,Mole Pokémon,1
 51,#0051,Dugtrio,Ground,Sand Veil / Arena Trap,Sand Force,"50% male, 50% female",20cycles,Field,149.0,0.7,33.3,Medium Fast,Brown,70.0,Mole Pokémon,1
-52,#0052,Meowth,Normal,"('Pickup', 'Technician')",Unnerve,"50% male, 50% female",20cycles,Field,58.0,0.4,4.2,Medium Fast,Yellow,70.0,Scratch Cat Pokémon,1
-53,#0053,Persian,Normal,"('Limber', 'Technician')",Unnerve,"50% male, 50% female",20cycles,Field,154.0,1.0,32.0,Medium Fast,Yellow,70.0,Classy Cat Pokémon,1
+52,#0052,Meowth,Normal,Pickup / Technician,Unnerve,"50% male, 50% female",20cycles,Field,58,0.4,4.2,Medium Fast,Yellow,70,Scratch Cat Pokémon,1
+53,#0053,Persian,Normal,Limber / Technician,Unnerve,"50% male, 50% female",20cycles,Field,154,1.0,32.0,Medium Fast,Yellow,70,Classy Cat Pokémon,1
 54,#0054,Psyduck,Water,Damp / Cloud Nine,Swift Swim,"50% male, 50% female",20cycles,Water 1 / Field,64.0,0.8,19.6,Medium Fast,Yellow,70.0,Duck Pokémon,1
 55,#0055,Golduck,Water,Damp / Cloud Nine,Swift Swim,"50% male, 50% female",20cycles,Water 1 / Field,175.0,1.7,76.6,Medium Fast,Blue,70.0,Duck Pokémon,1
 56,#0056,Mankey,Fighting,Vital Spirit / Anger Point,Defiant,"50% male, 50% female",20cycles,Field,61.0,0.5,28.0,Medium Fast,Brown,70.0,Pig Monkey Pokémon,1
@@ -897,13 +897,13 @@
 896,#0896,Glastrier,Ice,Chilling Neigh,None,Gender unknown,120cycles,No Eggs Discovered,290.0,2.2,800.0,Slow,White,35.0,Wild Horse Pokémon,8
 897,#0897,Spectrier,Ghost,Grim Neigh,None,Gender unknown,120cycles,No Eggs Discovered,290.0,2.0,44.5,Slow,Black,35.0,Swift Horse Pokémon,8
 898,#0898,Calyrex,Psychic / Grass,Unnerve,As One,Gender unknown,120cycles,No Eggs Discovered,250.0,1.1,7.7,Slow,Green,100.0,King PokémonHigh King Pokémon,8
-899,#0899,Wyrdeer,Normal / Psychic,Intimidate / Frisk,Sap Sipper,"50% male, 50% female",20cycles,Field,263,1.8,95.1,Slow,Gray,50,Big Horn Pokémon,8
-900,#0900,Kleavor,Bug / Rock,Swarm / Sheer Force,Sharpness,"50% male, 50% female",20cycles,Bug,175,1.8,89.0,Medium Fast,Brown,50,Axe Pokémon,8
-901,#0901,Ursaluna,Ground / Normal,Guts / Bulletproof,Unnerve,"50% male, 50% female",20cycles,Field,275,2.4,290.0,Medium Fast,Brown,50,Peat Pokémon,8
-902,#0902,Basculegion,Water / Ghost,Swift Swim / Adaptability,Mold Breaker,"50% male, 50% female",20cycles,Water 2,265,3.0,110.0,Medium Fast,Green,50,Big Fish Pokémon,8
-903,#0903,Sneasler,Fighting / Poison,Pressure / Unburden,Poison Touch,"50% male, 50% female",20cycles,Field,102,1.3,43.0,Medium Slow,Blue,50,Free Climb Pokémon,8
-904,#0904,Overqwil,Dark / Poison,Poison Point / Swift Swim,Intimidate,"50% male, 50% female",20cycles,Water 2,179,2.5,60.5,Medium Fast,Black,50,Pin Cluster Pokémon,8
-905,#0905,Enamorus,Fairy / Flying,Cute Charm,Contrary,100% female,20cycles,No Eggs Discovered,116,1.6,48.0,Slow,Pink,50,Love-Hate Pokémon,8
+899,#0899,Wyrdeer,Normal / Psychic,Intimidate / Frisk,Sap Sipper,"50% male, 50% female",20cycles,Field,263.0,1.8,95.1,Slow,Gray,50.0,Big Horn Pokémon,8
+900,#0900,Kleavor,Bug / Rock,Swarm / Sheer Force,Sharpness,"50% male, 50% female",20cycles,Bug,175.0,1.8,89.0,Medium Fast,Brown,50.0,Axe Pokémon,8
+901,#0901,Ursaluna,Ground / Normal,Guts / Bulletproof,Unnerve,"50% male, 50% female",20cycles,Field,275.0,2.4,290.0,Medium Fast,Brown,50.0,Peat Pokémon,8
+902,#0902,Basculegion,Water / Ghost,Swift Swim / Adaptability,Mold Breaker,"50% male, 50% female",20cycles,Water 2,265.0,3.0,110.0,Medium Fast,Green,50.0,Big Fish Pokémon,8
+903,#0903,Sneasler,Fighting / Poison,Pressure / Unburden,Poison Touch,"50% male, 50% female",20cycles,Field,102.0,1.3,43.0,Medium Slow,Blue,50.0,Free Climb Pokémon,8
+904,#0904,Overqwil,Dark / Poison,Poison Point / Swift Swim,Intimidate,"50% male, 50% female",20cycles,Water 2,179.0,2.5,60.5,Medium Fast,Black,50.0,Pin Cluster Pokémon,8
+905,#0905,Enamorus,Fairy / Flying,Cute Charm,Contrary,100% female,20cycles,No Eggs Discovered,116.0,1.6,48.0,Slow,Pink,50.0,Love-Hate Pokémon,8
 906,#0906,Sprigatito,Grass,Overgrow,Protean,"87.5% male, 12.5% female",20cycles,Field / Grass,62.0,0.4,4.1,Medium Slow,Green,50.0,Grass Cat Pokémon,9
 907,#0907,Floragato,Grass,Overgrow,Protean,"87.5% male, 12.5% female",20cycles,Field / Grass,144.0,0.9,12.2,Medium Slow,Green,50.0,Grass Cat Pokémon,9
 908,#0908,Meowscarada,Grass / Dark,Overgrow,Protean,"87.5% male, 12.5% female",20cycles,Field / Grass,265.0,1.5,31.2,Medium Slow,Green,50.0,Magician Pokémon,9
@@ -913,22 +913,22 @@
 912,#0912,Quaxly,Water,Torrent,Moxie,"87.5% male, 12.5% female",20cycles,Flying / Water 1,62.0,0.5,6.1,Medium Slow,Blue,50.0,Duckling Pokémon,9
 913,#0913,Quaxwell,Water,Torrent,Moxie,"87.5% male, 12.5% female",20cycles,Flying / Water 1,144.0,1.2,21.5,Medium Slow,Blue,50.0,Practicing Pokémon,9
 914,#0914,Quaquaval,Water / Fighting,Torrent,Moxie,"87.5% male, 12.5% female",20cycles,Flying / Water 1,265.0,1.8,61.9,Medium Slow,Blue,50.0,Dancer Pokémon,9
-915,#0915,Lechonk,Normal,Aroma Veil / Gluttony,Thick Fat,"50% male, 50% female",15cycles,Field,51,0.5,10.2,Medium Fast,Gray,50,Hog Pokémon,9
-916,#0916,Oinkologne,Normal,Lingering Aroma / Gluttony,Thick Fat,"50% male, 50% female",15cycles,Field,171,1.0,120.0,Medium Fast,Gray,50,Hog Pokémon,9
-917,#0917,Tarountula,Bug,Insomnia,Stakeout,"50% male, 50% female",15cycles,Bug,42,0.3,4.0,Erratic,White,50,String Ball Pokémon,9
-918,#0918,Spidops,Bug,Insomnia,Stakeout,"50% male, 50% female",15cycles,Bug,141,1.0,16.5,Erratic,Green,50,Trap Pokémon,9
-919,#0919,Nymble,Bug,Swarm,Tinted Lens,"50% male, 50% female",20cycles,Bug,42,0.2,1.0,Medium Fast,Gray,20,Grasshopper Pokémon,9
-920,#0920,Lokix,Bug / Dark,Swarm,Tinted Lens,"50% male, 50% female",20cycles,Bug,158,1.0,17.5,Medium Fast,Gray,0,Grasshopper Pokémon,9
-921,#0921,Pawmi,Electric,Static / Natural Cure,Iron Fist,"50% male, 50% female",15cycles,Field,48,0.3,2.5,Medium Fast,Yellow,50,Mouse Pokémon,9
-922,#0922,Pawmo,Electric / Fighting,Volt Absorb / Natural Cure,Iron Fist,"50% male, 50% female",15cycles,Field,123,0.4,6.5,Medium Fast,Yellow,50,Mouse Pokémon,9
-923,#0923,Pawmot,Electric / Fighting,Volt Absorb / Natural Cure,Iron Fist,"50% male, 50% female",15cycles,Field,245,0.9,41.0,Medium Fast,Yellow,50,Hands-On Pokémon,9
-924,#0924,Tandemaus,Normal,Run Away / Pickup,Own Tempo,Gender unknown,10cycles,Field / Fairy,61,0.3,1.8,Fast,White,50,Couple Pokémon,9
-925,#0925,Maushold,Normal,Friend Guard / Cheek Pouch,Technician,Gender unknown,10cycles,Field / Fairy,165,0.3,2.8,Fast,White,50,Family Pokémon,9
-926,#0926,Fidough,Fairy,Own Tempo,Klutz,"50% male, 50% female",20cycles,Field / Mineral,62,0.3,10.9,Medium Slow,Yellow,50,Puppy Pokémon,9
-927,#0927,Dachsbun,Fairy,Well-Baked Body,Aroma Veil,"50% male, 50% female",20cycles,Field / Mineral,167,0.5,14.9,Medium Slow,Brown,50,Dog Pokémon,9
-928,#0928,Smoliv,Grass / Normal,Early Bird,Harvest,"50% male, 50% female",20cycles,Grass,52,0.3,6.5,Medium Slow,Green,50,Olive Pokémon,9
-929,#0929,Dolliv,Grass / Normal,Early Bird,Harvest,"50% male, 50% female",20cycles,Grass,124,0.6,11.9,Medium Slow,Green,50,Olive Pokémon,9
-930,#0930,Arboliva,Grass / Normal,Seed Sower,Harvest,"50% male, 50% female",20cycles,Grass,255,1.4,48.2,Medium Slow,Green,50,Olive Pokémon,9
+915,#0915,Lechonk,Normal,Aroma Veil / Gluttony,Thick Fat,"50% male, 50% female",15cycles,Field,51.0,0.5,10.2,Medium Fast,Gray,50.0,Hog Pokémon,9
+916,#0916,Oinkologne,Normal,Lingering Aroma / Gluttony,Thick Fat,"50% male, 50% female",15cycles,Field,171.0,1.0,120.0,Medium Fast,Gray,50.0,Hog Pokémon,9
+917,#0917,Tarountula,Bug,Insomnia,Stakeout,"50% male, 50% female",15cycles,Bug,42.0,0.3,4.0,Erratic,White,50.0,String Ball Pokémon,9
+918,#0918,Spidops,Bug,Insomnia,Stakeout,"50% male, 50% female",15cycles,Bug,141.0,1.0,16.5,Erratic,Green,50.0,Trap Pokémon,9
+919,#0919,Nymble,Bug,Swarm,Tinted Lens,"50% male, 50% female",20cycles,Bug,42.0,0.2,1.0,Medium Fast,Gray,20.0,Grasshopper Pokémon,9
+920,#0920,Lokix,Bug / Dark,Swarm,Tinted Lens,"50% male, 50% female",20cycles,Bug,158.0,1.0,17.5,Medium Fast,Gray,0.0,Grasshopper Pokémon,9
+921,#0921,Pawmi,Electric,Static / Natural Cure,Iron Fist,"50% male, 50% female",15cycles,Field,48.0,0.3,2.5,Medium Fast,Yellow,50.0,Mouse Pokémon,9
+922,#0922,Pawmo,Electric / Fighting,Volt Absorb / Natural Cure,Iron Fist,"50% male, 50% female",15cycles,Field,123.0,0.4,6.5,Medium Fast,Yellow,50.0,Mouse Pokémon,9
+923,#0923,Pawmot,Electric / Fighting,Volt Absorb / Natural Cure,Iron Fist,"50% male, 50% female",15cycles,Field,245.0,0.9,41.0,Medium Fast,Yellow,50.0,Hands-On Pokémon,9
+924,#0924,Tandemaus,Normal,Run Away / Pickup,Own Tempo,Gender unknown,10cycles,Field / Fairy,61.0,0.3,1.8,Fast,White,50.0,Couple Pokémon,9
+925,#0925,Maushold,Normal,Friend Guard / Cheek Pouch,Technician,Gender unknown,10cycles,Field / Fairy,165.0,0.3,2.8,Fast,White,50.0,Family Pokémon,9
+926,#0926,Fidough,Fairy,Own Tempo,Klutz,"50% male, 50% female",20cycles,Field / Mineral,62.0,0.3,10.9,Medium Slow,Yellow,50.0,Puppy Pokémon,9
+927,#0927,Dachsbun,Fairy,Well-Baked Body,Aroma Veil,"50% male, 50% female",20cycles,Field / Mineral,167.0,0.5,14.9,Medium Slow,Brown,50.0,Dog Pokémon,9
+928,#0928,Smoliv,Grass / Normal,Early Bird,Harvest,"50% male, 50% female",20cycles,Grass,52.0,0.3,6.5,Medium Slow,Green,50.0,Olive Pokémon,9
+929,#0929,Dolliv,Grass / Normal,Early Bird,Harvest,"50% male, 50% female",20cycles,Grass,124.0,0.6,11.9,Medium Slow,Green,50.0,Olive Pokémon,9
+930,#0930,Arboliva,Grass / Normal,Seed Sower,Harvest,"50% male, 50% female",20cycles,Grass,255.0,1.4,48.2,Medium Slow,Green,50.0,Olive Pokémon,9
 931,#0931,Squawkabilly,Normal / Flying,Intimidate / Hustle,Guts / Sheer Force,"50% male, 50% female",15cycles,Flying,146.0,0.6,2.4,Erratic,Green,50.0,Parrot Pokémon,9
 932,#0932,Nacli,Rock,Purifying Salt / Sturdy,Clear Body,"50% male, 50% female",20cycles,Mineral,56.0,0.4,16.0,Medium Slow,Brown,50.0,Rock Salt Pokémon,9
 933,#0933,Naclstack,Rock,Purifying Salt / Sturdy,Clear Body,"50% male, 50% female",20cycles,Mineral,124.0,0.6,105.0,Medium Slow,Brown,50.0,Rock Salt Pokémon,9
@@ -1009,13 +1009,13 @@
 1008,#1008,Miraidon,Electric / Dragon,Hadron Engine,None,Gender unknown,50cycles,No Eggs Discovered,335.0,3.5,240.0,Slow,Purple,0.0,Paradox Pokémon,9
 1009,#1009,Walking Wake,Water / Dragon,Protosynthesis,None,Gender unknown,50cycles,No Eggs Discovered,295.0,3.5,280.0,Slow,Blue,0.0,Paradox Pokémon,9
 1010,#1010,Iron Leaves,Grass / Psychic,Quark Drive,None,Gender unknown,50cycles,No Eggs Discovered,295.0,1.5,125.0,Slow,Green,0.0,Paradox Pokémon,9
-1011,#1011,Dipplin,Grass / Dragon,Supersweet Syrup / Gluttony,Sticky Hold,"50% male, 50% female",20cycles,Grass / Dragon,170,0.4,4.4,Erratic,Green,50,Candy Apple Pokémon,9
-1012,#1012,Poltchageist,Grass / Ghost,Hospitality,Heatproof,Gender unknown,20cycles,Mineral / Amorphous,62,0.1,1.1,Medium Fast,Green,50,Matcha Pokémon,9
-1013,#1013,Sinistcha,Grass / Ghost,Hospitality,Heatproof,Gender unknown,20cycles,Mineral / Amorphous,178,0.2,2.2,Medium Fast,Green,50,Matcha Pokémon,9
-1014,#1014,Okidogi,Poison / Fighting,Toxic Chain,Guard Dog,100% male,120cycles,No Eggs Discovered,278,1.8,92.2,Slow,Black,0,Retainer Pokémon,9
-1015,#1015,Munkidori,Poison / Psychic,Toxic Chain,Frisk,100% male,120cycles,No Eggs Discovered,278,1.0,12.2,Slow,Black,0,Retainer Pokémon,9
-1016,#1016,Fezandipiti,Poison / Fairy,Toxic Chain,Technician,100% male,120cycles,No Eggs Discovered,278,1.4,30.1,Slow,Black,0,Retainer Pokémon,9
-1017,#1017,Ogerpon,Grass,Defiant,,100% female,10cycles,No Eggs Discovered,275,1.2,39.8,Slow,Green,50,Mask Pokémon,9
+1011,#1011,Dipplin,Grass / Dragon,Supersweet Syrup / Gluttony,Sticky Hold,"50% male, 50% female",20cycles,Grass / Dragon,170.0,0.4,4.4,Erratic,Green,50.0,Candy Apple Pokémon,9
+1012,#1012,Poltchageist,Grass / Ghost,Hospitality,Heatproof,Gender unknown,20cycles,Mineral / Amorphous,62.0,0.1,1.1,Medium Fast,Green,50.0,Matcha Pokémon,9
+1013,#1013,Sinistcha,Grass / Ghost,Hospitality,Heatproof,Gender unknown,20cycles,Mineral / Amorphous,178.0,0.2,2.2,Medium Fast,Green,50.0,Matcha Pokémon,9
+1014,#1014,Okidogi,Poison / Fighting,Toxic Chain,Guard Dog,100% male,120cycles,No Eggs Discovered,278.0,1.8,92.2,Slow,Black,0.0,Retainer Pokémon,9
+1015,#1015,Munkidori,Poison / Psychic,Toxic Chain,Frisk,100% male,120cycles,No Eggs Discovered,278.0,1.0,12.2,Slow,Black,0.0,Retainer Pokémon,9
+1016,#1016,Fezandipiti,Poison / Fairy,Toxic Chain,Technician,100% male,120cycles,No Eggs Discovered,278.0,1.4,30.1,Slow,Black,0.0,Retainer Pokémon,9
+1017,#1017,Ogerpon,Grass,Defiant,,100% female,10cycles,No Eggs Discovered,275.0,1.2,39.8,Slow,Green,50.0,Mask Pokémon,9
 1018,#1018,Archaludon,Steel / Dragon,Stamina / Sturdy,Stalwart,"50% male, 50% female",30cycles,Mineral / Dragon,300.0,2.0,60.0,Medium Fast,White,50.0,Alloy Pokémon,9
 1019,#1019,Hydrapple,Grass / Dragon,Supersweet Syrup / Regenerator,Sticky Hold,"50% male, 50% female",20cycles,Grass / Dragon,270.0,1.8,93.0,Erratic,Green,50.0,Apple Hydra Pokémon,9
 1020,#1020,Gouging Fire,Fire / Dragon,Protosynthesis,None,Gender unknown,50cycles,No Eggs Discovered,295.0,3.5,590.0,Slow,Brown,0.0,Paradox Pokémon,9
