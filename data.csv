@@ -27,9 +27,9 @@
 26,#0026,Raichu,Electric,Static,Lightning Rod,"50% male, 50% female",10cycles,Field / Fairy,218.0,0.8,30.0,Medium Fast,Yellow,70.0,Mouse Pokémon,1
 27,#0027,Sandshrew,Ground,Sand Veil,Sand Rush,"50% male, 50% female",20cycles,Field,60.0,0.6,12.0,Medium Fast,Yellow,70.0,Mouse Pokémon,1
 28,#0028,Sandslash,Ground,Sand Veil,Sand Rush,"50% male, 50% female",20cycles,Field,158.0,1.0,29.5,Medium Fast,Yellow,70.0,Mouse Pokémon,1
-29,#0029,Nidoran♀,Poison,Poison Point / Rivalry,Hustle,100% female,20cycles,Monsterand Field,55,0.4,7.0,Medium Slow,Blue,70,Poison Pin Pokémon,0
-30,#0030,Nidorina,Poison,Poison Point / Rivalry,Hustle,100% female,20cycles,No Eggs Discovered,128,0.8,20.0,Medium Slow,Blue,70,Poison Pin Pokémon,0
-31,#0031,Nidoqueen,Poison / Ground,Poison Point / Rivalry,Sheer Force,100% female,20cycles,No Eggs Discovered,227,1.3,60.0,Medium Slow,Blue,70,Drill Pokémon,0
+29,#0029,Nidoran♀,Poison,Poison Point / Rivalry,Hustle,100% female,20cycles,Monsterand Field,55,0.4,7.0,Medium Slow,Blue,70,Poison Pin Pokémon,1
+30,#0030,Nidorina,Poison,Poison Point / Rivalry,Hustle,100% female,20cycles,No Eggs Discovered,128,0.8,20.0,Medium Slow,Blue,70,Poison Pin Pokémon,1
+31,#0031,Nidoqueen,Poison / Ground,Poison Point / Rivalry,Sheer Force,100% female,20cycles,No Eggs Discovered,227,1.3,60.0,Medium Slow,Blue,70,Drill Pokémon,1
 32,#0032,Nidoran♂,Poison,Poison Point / Rivalry,Hustle,100% male,20cycles,Monster / Field,55.0,0.5,9.0,Medium Slow,Purple,70.0,Poison Pin Pokémon,1
 33,#0033,Nidorino,Poison,Poison Point / Rivalry,Hustle,100% male,20cycles,Monster / Field,128.0,0.9,19.5,Medium Slow,Purple,70.0,Poison Pin Pokémon,1
 34,#0034,Nidoking,Poison / Ground,Poison Point / Rivalry,Sheer Force,100% male,20cycles,Monster / Field,227.0,1.4,62.0,Medium Slow,Purple,70.0,Drill Pokémon,1
