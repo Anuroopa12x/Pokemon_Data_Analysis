@@ -1009,13 +1009,13 @@
 1008,#1008,Miraidon,Electric / Dragon,Hadron Engine,None,Gender unknown,50cycles,No Eggs Discovered,335.0,3.5,240.0,Slow,Purple,0.0,Paradox Pokémon,9,Yes
 1009,#1009,Walking Wake,Water / Dragon,Protosynthesis,None,Gender unknown,50cycles,No Eggs Discovered,295.0,3.5,280.0,Slow,Blue,0.0,Paradox Pokémon,9,No
 1010,#1010,Iron Leaves,Grass / Psychic,Quark Drive,None,Gender unknown,50cycles,No Eggs Discovered,295.0,1.5,125.0,Slow,Green,0.0,Paradox Pokémon,9,No
-1011,#1011,Dipplin,Grass / Dragon,Supersweet Syrup / Gluttony,Sticky Hold,"50% male, 50% female",20cycles,Grass / Dragon,170.0,0.4,4.4,Erratic,Green,50.0,Candy Apple Pokémon,9,No
-1012,#1012,Poltchageist,Grass / Ghost,Hospitality,Heatproof,Gender unknown,20cycles,Mineral / Amorphous,62.0,0.1,1.1,Medium Fast,Green,50.0,Matcha Pokémon,9,No
-1013,#1013,Sinistcha,Grass / Ghost,Hospitality,Heatproof,Gender unknown,20cycles,Mineral / Amorphous,178.0,0.2,2.2,Medium Fast,Green,50.0,Matcha Pokémon,9,No
-1014,#1014,Okidogi,Poison / Fighting,Toxic Chain,Guard Dog,100% male,120cycles,No Eggs Discovered,278.0,1.8,92.2,Slow,Black,0.0,Retainer Pokémon,9,Yes
-1015,#1015,Munkidori,Poison / Psychic,Toxic Chain,Frisk,100% male,120cycles,No Eggs Discovered,278.0,1.0,12.2,Slow,Black,0.0,Retainer Pokémon,9,Yes
-1016,#1016,Fezandipiti,Poison / Fairy,Toxic Chain,Technician,100% male,120cycles,No Eggs Discovered,278.0,1.4,30.1,Slow,Black,0.0,Retainer Pokémon,9,Yes
-1017,#1017,Ogerpon,Grass,Defiant,,100% female,10cycles,No Eggs Discovered,275.0,1.2,39.8,Slow,Green,50.0,Mask Pokémon,9,Yes
+1011,#1011,Dipplin,Grass / Dragon,Supersweet Syrup / Gluttony,Sticky Hold,"50% male, 50% female",20cycles,Grass / Dragon,170,0.4,4.4,Erratic,Green,50,Candy Apple Pokémon,9,No
+1012,#1012,Poltchageist,Grass / Ghost,Hospitality,Heatproof,Gender unknown,20cycles,Mineral / Amorphous,62,0.1,1.1,Medium Fast,Green,50,Matcha Pokémon,9,No
+1013,#1013,Sinistcha,Grass / Ghost,Hospitality,Heatproof,Gender unknown,20cycles,Mineral / Amorphous,178,0.2,2.2,Medium Fast,Green,50,Matcha Pokémon,9,No
+1014,#1014,Okidogi,Poison / Fighting,Toxic Chain,Guard Dog,100% male,120cycles,No Eggs Discovered,278,1.8,92.2,Slow,Black,0,Retainer Pokémon,9,Yes
+1015,#1015,Munkidori,Poison / Psychic,Toxic Chain,Frisk,100% male,120cycles,No Eggs Discovered,278,1.0,12.2,Slow,Black,0,Retainer Pokémon,9,Yes
+1016,#1016,Fezandipiti,Poison / Fairy,Toxic Chain,Technician,100% male,120cycles,No Eggs Discovered,278,1.4,30.1,Slow,Black,0,Retainer Pokémon,9,Yes
+1017,#1017,Ogerpon,Grass,Defiant,None,100% female,10cycles,No Eggs Discovered,275,1.2,39.8,Slow,Green,50,Mask Pokémon,9,Yes
 1018,#1018,Archaludon,Steel / Dragon,Stamina / Sturdy,Stalwart,"50% male, 50% female",30cycles,Mineral / Dragon,300.0,2.0,60.0,Medium Fast,White,50.0,Alloy Pokémon,9,No
 1019,#1019,Hydrapple,Grass / Dragon,Supersweet Syrup / Regenerator,Sticky Hold,"50% male, 50% female",20cycles,Grass / Dragon,270.0,1.8,93.0,Erratic,Green,50.0,Apple Hydra Pokémon,9,No
 1020,#1020,Gouging Fire,Fire / Dragon,Protosynthesis,None,Gender unknown,50cycles,No Eggs Discovered,295.0,3.5,590.0,Slow,Brown,0.0,Paradox Pokémon,9,No
