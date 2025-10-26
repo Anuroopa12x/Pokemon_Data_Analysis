@@ -2,14 +2,17 @@ import pandas as pd
 import numpy as np
 import streamlit as st
 import requests
+import urllib.request
+import os
 
-stats = pd.read_csv("/home/user/Desktop/Data_analysis_projects/Pokemon/stats.csv", index_col = 0)
-details = pd.read_csv("/home/user/Desktop/Data_analysis_projects/Pokemon/data.csv", index_col = 0)
-type_chart = pd.read_csv("/home/user/Desktop/Data_analysis_projects/Pokemon/Pokemon_Type_Chart.csv", index_col = 0)
+stats = pd.read_csv("/home/anuroopa/Desktop/Data_analysis_projects/Pokemon/stats.csv", index_col = 0)
+details = pd.read_csv("/home/anuroopa/Desktop/Data_analysis_projects/Pokemon/data.csv", index_col = 0)
+type_chart = pd.read_csv("/home/anuroopa/Desktop/Data_analysis_projects/Pokemon/Pokemon_Type_Chart.csv", index_col = 0)
 details = stats.merge(details)
 
 with st.form(key = "pokemon"):
     name = st.text_input("Enter name of the pokemon: ")
+    name = name.capitalize()
     submit_name = st.form_submit_button("Submit")
 
 if submit_name:
@@ -47,7 +50,11 @@ if submit_name:
         type1 = pokemon["type1"].iloc[0]
         type2 = pokemon["type2"].iloc[0]
         hp = pokemon["hp"].iloc[0]
-        number = pokemon["number"].iloc[0].replace("#0", "")
+        
+        if pokemon["number"].iloc[0].startswith("#0"):
+            number = pokemon["number"].iloc[0].replace("#0", "")
+        else:
+            number = pokemon["number"].iloc[0].replace("#", "")
         details["pokemon_defense"] = np.where(details["attack"] >= details["special_attack"],defense, special_defense)
     
             
@@ -101,6 +108,14 @@ if submit_name:
         return details.loc[:, ["name", "outcome"]], number
 
     result, number = stimulator(details, type_chart, name)
-    st.dataframe(result)
-    
-    
+    st.write("Pokedex Number", number)
+    url = f"https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/{number}.png"
+    filename = "/home/anuroopa/Desktop/Data_analysis_projects/Pokemon/static/pokemon.png"
+    try:
+        urllib.request.urlretrieve(url, filename=filename)
+    except Exception as e:
+        st.write(f"Unable to retrieve image of {name}", e)
+
+    st.image(os.path.join(os.getcwd(), "static", "pokemon.png"))
+    st.metric("Wins", (result["outcome"] == "win").sum())
+    st.metric("Loses", (result["outcome"] == "lose").sum())
