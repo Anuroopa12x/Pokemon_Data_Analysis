@@ -2,6 +2,14 @@ import pandas as pd
 import numpy as np
 import streamlit as st
 
+col1, col2 = st.columns([1, 4]) # Adjust column ratios as needed
+
+with col1:
+    st.image("static/swords.jpg")
+
+with col2:
+    st.title("Pokemon Battle Stimulator", )
+
 
 @st.cache_data
 def load_data():
@@ -13,20 +21,18 @@ def load_data():
     
 
 details, type_chart = load_data()
-mode = st.radio("Select Mode",
-               ["All Together", "One Vs One"], horizontal=True)
 
 def do_all_together(details, type_chart):
     with st.form(key = "pokemon"):
         name = st.text_input("Enter name of the Pokemon: ")
         name = name.capitalize()
+        level = st.slider("Select Level of the Pokemon", 1, 100, 50)
         submitted = st.form_submit_button("Submit")
         
     if submitted:
-        def stimulator(details, type_chart, name):
+        def stimulator(details, type_chart, name, level=50):
         
             details = details.copy()
-            level = 50 
             
             details["hp"] = np.floor(((2 * details["hp"] + 31) * level) / 100) + level + 10
             details["attack"] = np.floor(((2 * details["attack"] + 31) * level) / 100) + 5
@@ -113,7 +119,7 @@ def do_all_together(details, type_chart):
             return details.loc[:, ["name", "outcome"]], number
 
         try:
-            result, number = stimulator(details, type_chart, name)
+            result, number = stimulator(details, type_chart, name, level)
             if number == None:
                 st.error(f"Name of the Pokemon {name} not found please check the spelling")
             else:
@@ -130,9 +136,10 @@ def do_one_vs_one(details, type_chart):
     with st.form(key="one"):
         for_ = st.text_input("Enter the name of Your Pokemon")
         against = st.text_input("Enter the name of the Opponent Pokemon")
+        level = st.slider("Select Level of Both The Pokemon", 1, 100, 50)
         submitted = st.form_submit_button("Submit")
     if submitted:
-        def one_vs_one(details, type_chart, for_, against):
+        def one_vs_one(details, type_chart, for_, against, level=50):
             """
             Parameters: details - pd.DataFrame() containing necessary details of Pokemon scraped from Bulbapedia
             type_chart: pd.DataFrame() containing Pokemon type chart with offensive typing as row index and defensive a column headings
@@ -141,8 +148,6 @@ def do_one_vs_one(details, type_chart):
             return: a str containing "win", "lose" or "draw"
             """
             details = details.copy()
-            
-            level = 50 
             
             details["hp"] = np.floor(((2 * details["hp"] + 31) * level) / 100) + level + 10
             details["attack"] = np.floor(((2 * details["attack"] + 31) * level) / 100) + 5
@@ -225,7 +230,7 @@ def do_one_vs_one(details, type_chart):
                 return "lose", for_number, against_number
 
         try:
-            result, for_number, against_number = one_vs_one(details, type_chart, for_, against)
+            result, for_number, against_number = one_vs_one(details, type_chart, for_, against, level)
             if result == None: 
                 st.error("Name of the Pokemon not found please check the spelling")
             else:
@@ -249,7 +254,8 @@ def do_one_vs_one(details, type_chart):
             st.error(f"An unexpected error {e} occured")
 
 
-if mode == "All Together":
+tab1, tab2 = st.tabs(["All Together", "One Vs One"])
+with tab1:
     do_all_together(details, type_chart)
-elif mode == "One Vs One":
+with tab2:
     do_one_vs_one(details, type_chart)
