@@ -18,7 +18,7 @@ mode = st.radio("Select Mode",
 
 def do_all_together(details, type_chart):
     with st.form(key = "pokemon"):
-        name = st.text_input("Enter name of the pokemon: ")
+        name = st.text_input("Enter name of the Pokemon: ")
         name = name.capitalize()
         submitted = st.form_submit_button("Submit")
         
