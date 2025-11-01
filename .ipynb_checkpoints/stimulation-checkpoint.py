@@ -129,7 +129,7 @@ def do_one_vs_one(details, type_chart):
     with st.form(key="one"):
         for_ = st.text_input("Enter the name of Your Pokemon")
         against = st.text_input("Enter the name of the Opponent Pokemon")
-        level = st.slider("Select Level of Both The Pokemon", 1, 100, 50)
+        #level = st.slider("Select Level of Both The Pokemon", 1, 100, 50)
         submitted = st.form_submit_button("Submit")
     if submitted:
         def one_vs_one(details, type_chart, for_, against):
@@ -146,11 +146,11 @@ def do_one_vs_one(details, type_chart):
             against = against.capitalize()
             for_data = details[details["name"] == for_]
             against_data = details[details["name"] == against]
-        
+
             if len(for_data) < 1 or len(against_data) < 1:
                 st.error("Enter Valid Pokemon Names")
                 return None
-        
+            
             for_attack = for_data["main_attack"].iloc[0]
             for_defense = np.where(against_data["attack"] >= against_data["special_attack"],
                                   for_data["defense"].iloc[0], for_data["special_defense"].iloc[0])
@@ -189,7 +189,7 @@ def do_one_vs_one(details, type_chart):
             against_offense = np.maximum(against_offense_only_type1, against_offense_only_type2)
         
             power = 80
-            
+            level = 50
             damage_dealt_for = (((2*level/5+2)*power*for_ad)/50+2)*for_offense
             damage_dealt_against = (((2*level/5+2)*power*against_ad)/50+2)*against_offense
             
@@ -208,7 +208,7 @@ def do_one_vs_one(details, type_chart):
                 return "lose", for_number, against_number
 
         try:
-            result, for_number, against_number = one_vs_one(details, type_chart, for_, against, level)
+            result, for_number, against_number = one_vs_one(details, type_chart, for_, against)
             if result == None: 
                 st.error("Name of the Pokemon not found please check the spelling")
             else:
