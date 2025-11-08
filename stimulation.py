@@ -109,18 +109,36 @@ def do_all_together(details, type_chart):
                                           np.where(details["turns_to_win_pokemon"] > details["turns_to_win_others"], "lose",
                                                    np.where(details["chance"] == 1, "win", "lose")))
             
-            return details.loc[:, ["name", "outcome"]], number
+            return details.loc[:, ["name", "outcome", "category"]], number
 
         try:
             result, number = stimulator(details, type_chart, name)
+            result_legendary = result.loc[result["category"].str.contains("legendary"), :]
+            result_mythical = result.loc[result["category"] == "mythical", :]
+            result_mega = result.loc[result["category"] == "mega_evolution", :]
+            result_normal = result.loc[result["category"] == "normal", :]
             if number == None:
                 st.error(f"Name of the Pokemon {name} not found please check the spelling")
             else:
                 st.subheader(f"Pokedex Number is {number}")
                 url = f"https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/{number}.png"
                 st.image(url)
-                st.metric("Wins", (result["outcome"] == "win").sum())
-                st.metric("Loses", (result["outcome"] == "lose").sum())
+                col3, col4= st.columns(2)
+                with col3:
+                    st.header("Overall Result")
+                    st.metric("Total Wins", (result["outcome"] == "win").sum())
+                    st.metric("Total Loses", (result["outcome"] == "lose").sum())
+                    st.metric("Wins Against Normal Pokemon", (result_normal["outcome"] == "win").sum())
+                    st.metric("Loses Against Normal Pokemon", (result_normal["outcome"] == "lose").sum())  
+                    
+                with col4:
+                    st.header("Result Based on Specific Categories")
+                    st.metric("Wins Against Legendary and Sub Legendary Pokemon", (result_legendary["outcome"] == "win").sum())
+                    st.metric("Loses Against Legendary and Sub Legendary Pokemon", (result_legendary["outcome"] == "lose").sum())
+                    st.metric("Wins Against Mythical Pokemon", (result_mythical["outcome"] == "win").sum())
+                    st.metric("Loses Against Mythical Pokemon", (result_mythical["outcome"] == "lose").sum())
+                    st.metric("Wins Against Mega Evolutions", (result_mega["outcome"] == "win").sum())
+                    st.metric("Loses Against Mega Evolutions", (result_mega["outcome"] == "lose").sum())
         except Exception as e:
             st.error(f"An unexpected error {e} occured")
 
