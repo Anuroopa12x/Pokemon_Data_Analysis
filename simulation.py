@@ -23,8 +23,7 @@ details, type_chart = load_data()
 def do_all_together(details, type_chart):
     with st.form(key = "pokemon"):
         name = st.text_input("Enter name of the Pokemon: ")
-        name = name.capitalize()
-        #level = st.slider("Select Level of the Pokemon", 1, 100, 50)
+        name = name.title()
         submitted = st.form_submit_button("Submit")
         
     if submitted:
@@ -44,7 +43,7 @@ def do_all_together(details, type_chart):
         
             pokemon = details[details["name"].str.contains(name, case = False)]
             if len(pokemon) < 1:
-                print(f"The given name: {name} is not a name of available pokemon")
+                st.write(f"The given name: {name} is not a name of available pokemon")
                 return None
         
             attack = pokemon["attack"].iloc[0]
@@ -113,7 +112,7 @@ def do_all_together(details, type_chart):
 
         try:
             result, number = stimulator(details, type_chart, name)
-            result_legendary = result.loc[result["category"].str.contains("legendary"), :]
+            result_legendary = result.loc[(result["category"] == "legendary") | (result["category"] == "sub_legendary"), :]
             result_mythical = result.loc[result["category"] == "mythical", :]
             result_mega = result.loc[result["category"] == "mega_evolution", :]
             result_normal = result.loc[result["category"] == "normal", :]
