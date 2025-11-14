@@ -25,7 +25,7 @@ details, type_chart, moves = load_data()
 def do_all_together(details, type_chart):
     with st.form(key = "pokemon"):
         name = st.text_input("Enter name of the Pokemon: ")
-        name = name.title()
+        name = name.title().strip()
         submitted = st.form_submit_button("Submit")
         
     if submitted:
@@ -146,9 +146,8 @@ def do_all_together(details, type_chart):
 
 def do_one_vs_one(details, type_chart):
     with st.form(key="one"):
-        for_ = st.text_input("Enter the name of Your Pokemon")
-        against = st.text_input("Enter the name of the Opponent Pokemon")
-        #level = st.slider("Select Level of Both The Pokemon", 1, 100, 50)
+        for_ = st.text_input("Enter the name of Your Pokemon").title().strip()
+        against = st.text_input("Enter the name of the Opponent Pokemon").title().strip()
         submitted = st.form_submit_button("Submit")
     if submitted:
         def one_vs_one(details, type_chart, for_, against):
