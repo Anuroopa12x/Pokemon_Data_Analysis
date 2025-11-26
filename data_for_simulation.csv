@@ -472,9 +472,9 @@
 470,381,Latios,Dragon,Psychic,600,155.0,110.0,100.0,150.0,130.0,130.0,150.0,sub_legendary
 471,381,Mega Latios,Dragon,Psychic,700,155.0,150.0,120.0,180.0,140.0,130.0,180.0,mega_evolution
 472,382,Kyogre,Water,Nil,670,175.0,120.0,110.0,170.0,160.0,110.0,170.0,legendary
-473,382,Kyogre Primal Kyogre,Water,Nil,770,175.0,170.0,110.0,200.0,180.0,110.0,200.0,legendary
+473,382,Kyogre Primal,Water,Nil,770,175.0,170.0,110.0,200.0,180.0,110.0,200.0,legendary
 474,383,Groudon,Ground,Nil,670,175.0,170.0,160.0,120.0,110.0,110.0,170.0,legendary
-475,383,Groudon Primal Groudon,Ground,Fire,770,175.0,200.0,180.0,170.0,110.0,110.0,200.0,legendary
+475,383,Groudon Primal,Ground,Fire,770,175.0,200.0,180.0,170.0,110.0,110.0,200.0,legendary
 476,384,Rayquaza,Dragon,Flying,680,180.0,170.0,110.0,170.0,110.0,115.0,170.0,legendary
 477,384,Mega Rayquaza,Dragon,Flying,780,180.0,200.0,120.0,200.0,120.0,135.0,200.0,mega_evolution
 478,385,Jirachi,Steel,Psychic,600,175.0,120.0,120.0,120.0,120.0,120.0,120.0,mythical
@@ -584,11 +584,11 @@
 582,477,Dusknoir,Ghost,Nil,525,120.0,120.0,155.0,85.0,155.0,65.0,120.0,normal
 583,478,Froslass,Ice,Ghost,480,145.0,100.0,90.0,100.0,90.0,130.0,100.0,normal
 584,479,Rotom,Electric,Ghost,440,125.0,70.0,97.0,115.0,97.0,111.0,115.0,normal
-585,479,Rotom Heat Rotom,Electric,Fire,520,125.0,85.0,127.0,125.0,127.0,106.0,125.0,normal
-586,479,Rotom Wash Rotom,Electric,Water,520,125.0,85.0,127.0,125.0,127.0,106.0,125.0,normal
-587,479,Rotom Frost Rotom,Electric,Ice,520,125.0,85.0,127.0,125.0,127.0,106.0,125.0,normal
-588,479,Rotom Fan Rotom,Electric,Flying,520,125.0,85.0,127.0,125.0,127.0,106.0,125.0,normal
-589,479,Rotom Mow Rotom,Electric,Grass,520,125.0,85.0,127.0,125.0,127.0,106.0,125.0,normal
+585,479,Rotom Heat,Electric,Fire,520,125.0,85.0,127.0,125.0,127.0,106.0,125.0,normal
+586,479,Rotom Wash,Electric,Water,520,125.0,85.0,127.0,125.0,127.0,106.0,125.0,normal
+587,479,Rotom Frost,Electric,Ice,520,125.0,85.0,127.0,125.0,127.0,106.0,125.0,normal
+588,479,Rotom Fan,Electric,Flying,520,125.0,85.0,127.0,125.0,127.0,106.0,125.0,normal
+589,479,Rotom Mow,Electric,Grass,520,125.0,85.0,127.0,125.0,127.0,106.0,125.0,normal
 590,480,Uxie,Psychic,Nil,580,150.0,95.0,150.0,95.0,150.0,115.0,95.0,sub_legendary
 591,481,Mesprit,Psychic,Nil,580,155.0,125.0,125.0,125.0,125.0,100.0,125.0,sub_legendary
 592,482,Azelf,Psychic,Nil,580,150.0,145.0,90.0,145.0,90.0,135.0,145.0,sub_legendary
@@ -777,8 +777,8 @@
 775,645,Landorus Incarnate Forme,Ground,Flying,600,164.0,145.0,110.0,135.0,100.0,121.0,145.0,sub_legendary
 776,645,Landorus Therian Forme,Ground,Flying,600,164.0,165.0,110.0,125.0,100.0,111.0,165.0,sub_legendary
 777,646,Kyurem,Dragon,Ice,660,200.0,150.0,110.0,150.0,110.0,115.0,150.0,legendary
-778,646,Kyurem White Kyurem,Dragon,Ice,700,200.0,140.0,110.0,190.0,120.0,115.0,190.0,legendary
-779,646,Kyurem Black Kyurem,Dragon,Ice,700,200.0,190.0,120.0,140.0,110.0,115.0,190.0,legendary
+778,646,Kyurem White,Dragon,Ice,700,200.0,140.0,110.0,190.0,120.0,115.0,190.0,legendary
+779,646,Kyurem Black,Dragon,Ice,700,200.0,190.0,120.0,140.0,110.0,115.0,190.0,legendary
 780,647,Keldeo Ordinary Form,Water,Fighting,580,166.0,92.0,110.0,149.0,110.0,128.0,149.0,mythical
 781,647,Keldeo Resolute Form,Water,Fighting,580,166.0,92.0,110.0,149.0,110.0,128.0,149.0,mythical
 782,648,Meloetta Aria Forme,Normal,Psychic,600,175.0,97.0,97.0,148.0,148.0,110.0,148.0,mythical
@@ -871,8 +871,8 @@
 869,718,Zygarde Complete Forme,Dragon,Ground,708,291.0,120.0,141.0,111.0,115.0,105.0,120.0,legendary
 870,719,Diancie,Rock,Fairy,600,125.0,120.0,170.0,120.0,170.0,70.0,120.0,mythical
 871,719,Mega Diancie,Rock,Fairy,700,125.0,180.0,130.0,180.0,130.0,130.0,180.0,mega_evolution
-872,720,Hoopa Hoopa Confined,Psychic,Ghost,600,155.0,130.0,80.0,170.0,150.0,90.0,170.0,mythical
-873,720,Hoopa Hoopa Unbound,Psychic,Dark,680,155.0,180.0,80.0,190.0,150.0,100.0,190.0,mythical
+872,720,Hoopa Confined,Psychic,Ghost,600,155.0,130.0,80.0,170.0,150.0,90.0,170.0,mythical
+873,720,Hoopa Unbound,Psychic,Dark,680,155.0,180.0,80.0,190.0,150.0,100.0,190.0,mythical
 874,721,Volcanion,Fire,Water,600,155.0,130.0,140.0,150.0,110.0,90.0,150.0,mythical
 875,722,Rowlet,Grass,Flying,320,143.0,75.0,75.0,70.0,70.0,62.0,75.0,normal
 876,723,Dartrix,Grass,Flying,420,153.0,95.0,95.0,90.0,90.0,72.0,95.0,normal
@@ -901,7 +901,7 @@
 899,742,Cutiefly,Bug,Fairy,304,115.0,65.0,60.0,75.0,60.0,104.0,75.0,normal
 900,743,Ribombee,Bug,Fairy,464,135.0,75.0,80.0,115.0,90.0,144.0,115.0,normal
 901,744,Rockruff,Rock,Nil,280,120.0,85.0,60.0,50.0,60.0,80.0,85.0,normal
-902,744,Rockruff Own Tempo Rockruff,Rock,Nil,280,120.0,85.0,60.0,50.0,60.0,80.0,85.0,normal
+902,744,Rockruff Own Tempo,Rock,Nil,280,120.0,85.0,60.0,50.0,60.0,80.0,85.0,normal
 903,745,Lycanroc Midday Form,Rock,Nil,487,150.0,135.0,85.0,75.0,85.0,132.0,135.0,normal
 904,745,Lycanroc Midnight Form,Rock,Nil,487,160.0,135.0,95.0,75.0,95.0,102.0,135.0,normal
 905,745,Lycanroc Dusk Form,Rock,Nil,487,150.0,137.0,85.0,75.0,85.0,130.0,137.0,normal
@@ -962,9 +962,9 @@
 960,798,Kartana,Grass,Steel,570,134.0,201.0,151.0,79.0,51.0,129.0,201.0,sub_legendary
 961,799,Guzzlord,Dark,Dragon,570,298.0,121.0,73.0,117.0,73.0,63.0,121.0,sub_legendary
 962,800,Necrozma,Psychic,Nil,600,172.0,127.0,121.0,147.0,109.0,99.0,147.0,legendary
-963,800,Necrozma Dusk Mane Necrozma,Psychic,Steel,680,172.0,177.0,147.0,133.0,129.0,97.0,177.0,legendary
-964,800,Necrozma Dawn Wings Necrozma,Psychic,Ghost,680,172.0,133.0,129.0,177.0,147.0,97.0,177.0,legendary
-965,800,Necrozma Ultra Necrozma,Psychic,Dragon,754,172.0,187.0,117.0,187.0,117.0,149.0,187.0,legendary
+963,800,Necrozma Dusk Mane,Psychic,Steel,680,172.0,177.0,147.0,133.0,129.0,97.0,177.0,legendary
+964,800,Necrozma Dawn Wings,Psychic,Ghost,680,172.0,133.0,129.0,177.0,147.0,97.0,177.0,legendary
+965,800,Necrozma Ultra,Psychic,Dragon,754,172.0,187.0,117.0,187.0,117.0,149.0,187.0,legendary
 966,801,Magearna,Steel,Fairy,600,155.0,115.0,135.0,150.0,135.0,85.0,150.0,mythical
 967,802,Marshadow,Fighting,Ghost,600,165.0,145.0,100.0,110.0,110.0,145.0,145.0,mythical
 968,803,Poipole,Poison,Nil,420,142.0,93.0,87.0,93.0,87.0,93.0,93.0,sub_legendary
